@@ -1,10 +1,30 @@
 import React from 'react'
 import './style.css'
+import Header from './components/Header'
 
-const Todo = () => {
+// import { useState } from 'react'
+
+
+// const Todo = () => {
+//   const [inputTask, setInputTask] = useState("");
+
+
+//   const handleInputChange = (event) => {
+//     setInputTask(event.target.value);
+//   };
+
+// }
+function Todo() {
   return (
-    <div><h1> TO DO APP</h1></div>
+    <>
+      <Header />
+     
+
+
+    </>
   )
+
+
 }
 
 export default Todo
